@@ -1,0 +1,2 @@
+mockgen -destination=mocks/mock_db.go -package=mocks -source=repository/interface.go
+mockgen -destination=mocks/mock_service.go -package=mocks -source=service/interfaces.go
